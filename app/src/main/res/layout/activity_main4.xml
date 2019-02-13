@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#52E0E0E0"
+    tools:context=".Main4Activity">
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/botella"
+        android:id="@+id/botella"
+    android:paddingRight="20dp"
+    />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/manzanita"
+        android:layout_toRightOf="@+id/botella"
+android:id="@+id/manzana"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/escuincle"
+        android:layout_marginTop="250dp"
+        android:id="@+id/escuincle"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/panesito"
+        android:layout_toRightOf="@id/escuincle"
+        android:layout_marginTop="250dp"
+        android:id="@+id/panesito"
+        />
+
+    <RadioGroup
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Botella"
+            android:textSize="20dp"
+
+            android:layout_marginTop="190dp"
+            />
+    </RadioGroup>
+
+
+    <RadioGroup
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manzana"
+            android:textSize="20dp"
+android:layout_marginLeft="200dp"
+            android:layout_marginTop="190dp"
+            />
+    </RadioGroup>
+
+    <RadioGroup
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Escuincle"
+            android:textSize="20dp"
+
+            android:layout_marginTop="430dp"
+            />
+    </RadioGroup>
+
+    <RadioGroup
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pan"
+            android:textSize="20dp"
+android:layout_marginLeft="190dp"
+            android:layout_marginTop="430dp"
+            />
+    </RadioGroup>
+
+</RelativeLayout>
